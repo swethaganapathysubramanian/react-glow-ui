@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Component/Button Large 1`] = `
+<button
+  className="storybook-button storybook-button--large storybook-button--secondary"
+  style={null}
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Component/Button Primary 1`] = `
+<button
+  className="storybook-button storybook-button--medium storybook-button--primary"
+  style={null}
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Component/Button Secondary 1`] = `
+<button
+  className="storybook-button storybook-button--medium storybook-button--secondary"
+  style={null}
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Component/Button Small 1`] = `
+<button
+  className="storybook-button storybook-button--small storybook-button--secondary"
+  style={null}
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots component/Input Large 1`] = `
+<input
+  className="sc-bdnylx jipjAm input-large"
+  placeholder="Hello World"
+  value="Input"
+/>
+`;
+
+exports[`Storyshots component/Input Medium 1`] = `
+<input
+  className="sc-bdnylx jipjAm input-medium"
+  placeholder="Input"
+/>
+`;
+
+exports[`Storyshots component/Input Primary 1`] = `
+<input
+  className="sc-bdnylx jipjAm input-medium"
+  placeholder="Hello World"
+  value="Input"
+/>
+`;
+
+exports[`Storyshots component/Input Small 1`] = `
+<input
+  className="sc-bdnylx jipjAm input-small"
+  placeholder="Hello World"
+  value="Input"
+/>
+`;
