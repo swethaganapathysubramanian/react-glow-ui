@@ -12,7 +12,7 @@ const InputTag = styled.input`
   border-radius: 3px;
 `;
 
-export const Input = ({ placeholder, size, backgroundColor, label, color }) => {
+const Input = ({ placeholder, size, backgroundColor, label, color }) => {
   return (
     <InputTag
       placeholder={placeholder}
@@ -51,3 +51,5 @@ Input.defaultProps = {
   size: "medium",
   placeholder: "Hello World",
 };
+
+export default Input;

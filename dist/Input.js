@@ -5,7 +5,7 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Input = void 0;
+exports.default = void 0;
 
 var _taggedTemplateLiteral2 = _interopRequireDefault(require("@babel/runtime/helpers/esm/taggedTemplateLiteral"));
 
@@ -49,9 +49,10 @@ var Input = function Input(_ref) {
   });
 };
 
-exports.Input = Input;
 Input.defaultProps = {
   backgroundColor: null,
   size: "medium",
   placeholder: "Hello World"
 };
+var _default = Input;
+exports.default = _default;

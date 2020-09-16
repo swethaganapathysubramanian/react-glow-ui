@@ -5,7 +5,7 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Button = void 0;
+exports.default = void 0;
 
 var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/esm/objectWithoutProperties"));
 
@@ -32,10 +32,11 @@ var Button = function Button(_ref) {
   }, props), label);
 };
 
-exports.Button = Button;
 Button.defaultProps = {
   backgroundColor: null,
   primary: false,
   size: "medium",
   onClick: undefined
 };
+var _default = Button;
+exports.default = _default;
