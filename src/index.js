@@ -1,4 +1,7 @@
-import Button from "./components/Button";
-import Input from "./components/Input";
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./examples/App";
 
-export { Button, Input };
+import "./index.css";
+
+ReactDOM.render(<App />, document.getElementById("root"));
