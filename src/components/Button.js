@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./button.css";
-
+import "./css/tailwind.css";
 /**
  * Primary UI component for user interaction
  */
@@ -9,6 +9,7 @@ const Button = ({ primary, backgroundColor, size, label, ...props }) => {
   const mode = primary
     ? "storybook-button--primary"
     : "storybook-button--secondary";
+  console.log(backgroundColor);
   return (
     <button
       type="button"

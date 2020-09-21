@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import "./input.css";
+import "./css/tailwind.css";
 
 const InputTag = styled.input`
   padding: 0.5em;
@@ -13,6 +14,7 @@ const InputTag = styled.input`
 `;
 
 const Input = ({ placeholder, size, backgroundColor, label, color }) => {
+  console.log(backgroundColor);
   return (
     <InputTag
       placeholder={placeholder}
