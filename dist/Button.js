@@ -13,6 +13,8 @@ var _react = _interopRequireDefault(require("react"));
 
 require("./button.css");
 
+require("./css/tailwind.css");
+
 /**
  * Primary UI component for user interaction
  */
@@ -23,6 +25,7 @@ var Button = function Button(_ref) {
       label = _ref.label,
       props = (0, _objectWithoutProperties2.default)(_ref, ["primary", "backgroundColor", "size", "label"]);
   var mode = primary ? "storybook-button--primary" : "storybook-button--secondary";
+  console.log(backgroundColor);
   return /*#__PURE__*/_react.default.createElement("button", Object.assign({
     type: "button",
     className: ["storybook-button", "storybook-button--".concat(size), mode].join(" "),

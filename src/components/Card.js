@@ -1,4 +1,5 @@
 import React from "react";
+import "./css/tailwind.css";
 
 const Card = ({ image, alt, title, content, tags }) => {
   return (

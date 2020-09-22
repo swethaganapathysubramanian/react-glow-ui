@@ -15,6 +15,8 @@ var _styledComponents = _interopRequireDefault(require("styled-components"));
 
 require("./input.css");
 
+require("./css/tailwind.css");
+
 function _templateObject() {
   var data = (0, _taggedTemplateLiteral2.default)(["\n  padding: 0.5em;\n  margin: 0.5em;\n  color: ", ";\n  background: ", ";\n  border: 1px black solid;\n  border-radius: 3px;\n"]);
 
@@ -37,6 +39,7 @@ var Input = function Input(_ref) {
       backgroundColor = _ref.backgroundColor,
       label = _ref.label,
       color = _ref.color;
+  console.log(backgroundColor);
   return /*#__PURE__*/_react.default.createElement(InputTag, {
     placeholder: placeholder,
     style: (backgroundColor && {
